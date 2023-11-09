@@ -1,6 +1,7 @@
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
+
 # Temporary files
 *.000
 *.bak
@@ -19,6 +20,9 @@ fp-info-cache
 
 # Netlist files (exported from Eeschema)
 *.net
+
+#logs
+*.log
 
 # Autorouter files (exported from Pcbnew)
 *.dsn
