@@ -1638,7 +1638,7 @@
   (symbol (lib_id "Device:R") (at 50.165 161.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00f9d57f-27c9-4b4b-b6bf-c7a68e2a0b5f)
-    (property "Reference" "R1" (at 50.165 152.4 90)
+    (property "Reference" "LED_R1" (at 50.165 152.4 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "510" (at 50.165 154.94 90)
@@ -1658,7 +1658,7 @@
     (instances
       (project "stm32_crystal"
         (path "/286f8c9e-1ba9-4589-9314-fc05c64c58b2"
-          (reference "R1") (unit 1)
+          (reference "LED_R1") (unit 1)
         )
       )
       (project "Aquecedor"
@@ -1738,7 +1738,7 @@
   (symbol (lib_id "Device:R") (at 50.165 176.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2dcb416c-3da3-4411-ba49-86eabe2f283f)
-    (property "Reference" "R2" (at 50.165 167.64 90)
+    (property "Reference" "LED_R2" (at 50.165 167.64 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "510" (at 50.165 170.18 90)
@@ -1758,7 +1758,7 @@
     (instances
       (project "stm32_crystal"
         (path "/286f8c9e-1ba9-4589-9314-fc05c64c58b2"
-          (reference "R2") (unit 1)
+          (reference "LED_R2") (unit 1)
         )
       )
       (project "Aquecedor"
@@ -1900,10 +1900,10 @@
   (symbol (lib_id "MCU_ST_STM32F1:STM32F103C6Tx") (at 141.605 111.125 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f9a73d4-91f2-413f-b6a2-0317bc45a5d4)
-    (property "Reference" "U1" (at 146.1644 149.225 0)
+    (property "Reference" "STM32" (at 146.3391 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "STM32F103C6Tx" (at 146.1644 151.765 0)
+    (property "Value" "STM32F103C6Tx" (at 146.3391 151.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm" (at 126.365 146.685 0)
@@ -1912,7 +1912,7 @@
     (property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00210843.pdf" (at 141.605 111.125 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C8304" (at 146.1644 154.305 0)
+    (property "LCSC" "C8304" (at 146.3391 153.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (pin "1" (uuid 78725da6-03d0-40a7-8d75-df4deb0b9a3a))
@@ -1966,7 +1966,7 @@
     (instances
       (project "stm32_crystal"
         (path "/286f8c9e-1ba9-4589-9314-fc05c64c58b2"
-          (reference "U1") (unit 1)
+          (reference "STM32") (unit 1)
         )
       )
       (project "Aquecedor"
@@ -1980,10 +1980,10 @@
   (symbol (lib_id "Device:R") (at 194.31 28.575 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4fc2efe4-3a15-4398-96e6-994f0c689e5b)
-    (property "Reference" "R3" (at 196.85 26.0349 0)
+    (property "Reference" "USB_R3" (at 196.85 26.035 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "4.7k" (at 196.85 28.5749 0)
+    (property "Value" "4.7k" (at 196.85 28.575 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 196.088 28.575 90)
@@ -1992,7 +1992,7 @@
     (property "Datasheet" "~" (at 194.31 28.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C105871" (at 196.85 31.1149 0)
+    (property "LCSC" "C105871" (at 196.85 31.115 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (pin "1" (uuid 508f6fff-4554-47a1-af9b-187ee7d9422b))
@@ -2000,7 +2000,7 @@
     (instances
       (project "stm32_crystal"
         (path "/286f8c9e-1ba9-4589-9314-fc05c64c58b2"
-          (reference "R3") (unit 1)
+          (reference "USB_R3") (unit 1)
         )
       )
       (project "Aquecedor"
@@ -2144,7 +2144,7 @@
   (symbol (lib_id "Device:LED") (at 36.195 176.53 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5dcf4018-ef98-4b7b-87c7-e0740410a115)
-    (property "Reference" "D2" (at 37.7825 166.37 0)
+    (property "Reference" "PWR_LED1" (at 37.7825 166.37 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 37.7825 168.91 0)
@@ -2164,7 +2164,7 @@
     (instances
       (project "stm32_crystal"
         (path "/286f8c9e-1ba9-4589-9314-fc05c64c58b2"
-          (reference "D2") (unit 1)
+          (reference "PWR_LED1") (unit 1)
         )
       )
       (project "Aquecedor"
@@ -2336,10 +2336,10 @@
   (symbol (lib_id "Device:Crystal") (at 41.275 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 701e48a3-a682-4f86-97ec-7adae9a78926)
-    (property "Reference" "Y2" (at 45.085 78.7399 90)
+    (property "Reference" "uC_Y1" (at 45.72 78.74 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "8Mhz" (at 45.085 81.2799 90)
+    (property "Value" "8Mhz" (at 45.72 81.28 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm" (at 41.275 81.28 0)
@@ -2348,7 +2348,7 @@
     (property "Datasheet" "~" (at 41.275 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C485371" (at 45.085 83.8199 90)
+    (property "LCSC" "C485371" (at 45.72 83.82 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (pin "1" (uuid 2d41defa-94e5-47e3-87c9-978639ff2eaf))
@@ -2356,7 +2356,7 @@
     (instances
       (project "stm32_crystal"
         (path "/286f8c9e-1ba9-4589-9314-fc05c64c58b2"
-          (reference "Y2") (unit 1)
+          (reference "uC_Y1") (unit 1)
         )
       )
       (project "Aquecedor"
@@ -2404,7 +2404,7 @@
   (symbol (lib_id "Device:Crystal_Small") (at 40.005 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7d8db58d-5dae-4cb4-a0de-a7a494cd76c9)
-    (property "Reference" "Y1" (at 40.005 24.13 0)
+    (property "Reference" "RTC_Y1" (at 40.005 24.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Crystal_Small" (at 40.005 26.67 0)
@@ -2424,7 +2424,7 @@
     (instances
       (project "stm32_crystal"
         (path "/286f8c9e-1ba9-4589-9314-fc05c64c58b2"
-          (reference "Y1") (unit 1)
+          (reference "RTC_Y1") (unit 1)
         )
       )
       (project "Aquecedor"
@@ -2438,10 +2438,10 @@
   (symbol (lib_id "Device:R") (at 209.55 36.195 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8351bdd5-de6c-432b-b91a-f69c646c6329)
-    (property "Reference" "R5" (at 209.55 40.005 90)
+    (property "Reference" "USB_R2" (at 209.55 39.37 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "20" (at 209.55 42.545 90)
+    (property "Value" "20" (at 209.55 41.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 209.55 37.973 90)
@@ -2450,7 +2450,7 @@
     (property "Datasheet" "~" (at 209.55 36.195 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C138031" (at 209.55 45.085 90)
+    (property "LCSC" "C138031" (at 209.55 44.45 90)
       (effects (font (size 1.27 1.27)))
     )
     (pin "1" (uuid bf440ad6-d2e6-4b31-8585-fd16127b5080))
@@ -2458,7 +2458,7 @@
     (instances
       (project "stm32_crystal"
         (path "/286f8c9e-1ba9-4589-9314-fc05c64c58b2"
-          (reference "R5") (unit 1)
+          (reference "USB_R2") (unit 1)
         )
       )
       (project "Aquecedor"
@@ -2472,7 +2472,7 @@
   (symbol (lib_id "Device:LED") (at 36.195 161.29 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 88c1c020-f7af-4623-b56f-fa60fd0ac45b)
-    (property "Reference" "D1" (at 37.7825 151.13 0)
+    (property "Reference" "uC_LED1" (at 37.7825 151.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 37.7825 153.67 0)
@@ -2492,7 +2492,7 @@
     (instances
       (project "stm32_crystal"
         (path "/286f8c9e-1ba9-4589-9314-fc05c64c58b2"
-          (reference "D1") (unit 1)
+          (reference "uC_LED1") (unit 1)
         )
       )
       (project "Aquecedor"
@@ -2506,7 +2506,7 @@
   (symbol (lib_id "Device:C") (at 46.99 37.465 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c327825-a02d-4e26-8a81-26ceea7d675d)
-    (property "Reference" "C2" (at 51.435 34.925 0)
+    (property "Reference" "RTC_C2" (at 51.435 34.925 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22pF" (at 51.435 37.465 0)
@@ -2526,7 +2526,7 @@
     (instances
       (project "stm32_crystal"
         (path "/286f8c9e-1ba9-4589-9314-fc05c64c58b2"
-          (reference "C2") (unit 1)
+          (reference "RTC_C2") (unit 1)
         )
       )
       (project "Aquecedor"
@@ -2540,7 +2540,7 @@
   (symbol (lib_id "Device:C") (at 33.655 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9efbbccc-7157-4c06-bc2a-8d602555464c)
-    (property "Reference" "C1" (at 22.225 35.56 0)
+    (property "Reference" "RTC_C1" (at 22.225 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22pF" (at 22.225 38.1 0)
@@ -2560,7 +2560,7 @@
     (instances
       (project "stm32_crystal"
         (path "/286f8c9e-1ba9-4589-9314-fc05c64c58b2"
-          (reference "C1") (unit 1)
+          (reference "RTC_C1") (unit 1)
         )
       )
       (project "Aquecedor"
@@ -2574,10 +2574,10 @@
   (symbol (lib_id "Device:C") (at 95.25 33.655 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a62d901c-828a-4604-ae61-b81beaee1a77)
-    (property "Reference" "C3" (at 91.44 31.1149 0)
+    (property "Reference" "Prog_C1" (at 91.44 31.115 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "104" (at 91.44 33.6549 0)
+    (property "Value" "104" (at 91.44 33.655 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 99.06 36.1949 0)
@@ -2586,7 +2586,7 @@
     (property "Datasheet" "~" (at 95.25 33.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C519438" (at 91.44 36.1949 0)
+    (property "LCSC" "C519438" (at 91.44 36.195 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (pin "1" (uuid 44050517-9edf-4961-a2bb-5a18e21fde6d))
@@ -2594,7 +2594,7 @@
     (instances
       (project "stm32_crystal"
         (path "/286f8c9e-1ba9-4589-9314-fc05c64c58b2"
-          (reference "C3") (unit 1)
+          (reference "Prog_C1") (unit 1)
         )
       )
       (project "Aquecedor"
@@ -2823,10 +2823,10 @@
   (symbol (lib_id "Device:R") (at 209.55 33.655 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f57c5453-e59e-4d8f-98b1-d103b0d5e47c)
-    (property "Reference" "R4" (at 209.55 24.765 90)
+    (property "Reference" "USB_R1" (at 209.55 25.4 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "20" (at 209.55 27.305 90)
+    (property "Value" "20" (at 209.55 27.94 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 209.55 35.433 90)
@@ -2835,7 +2835,7 @@
     (property "Datasheet" "~" (at 209.55 33.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C138031" (at 209.55 29.845 90)
+    (property "LCSC" "C138031" (at 209.55 30.48 90)
       (effects (font (size 1.27 1.27)))
     )
     (pin "1" (uuid 3c48b2e8-3448-4c7f-8815-959bdf157cde))
@@ -2843,7 +2843,7 @@
     (instances
       (project "stm32_crystal"
         (path "/286f8c9e-1ba9-4589-9314-fc05c64c58b2"
-          (reference "R4") (unit 1)
+          (reference "USB_R1") (unit 1)
         )
       )
       (project "Aquecedor"

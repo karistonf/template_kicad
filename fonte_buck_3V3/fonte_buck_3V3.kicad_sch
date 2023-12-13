@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Power Supply 3V3")
+    (date "2023-12-11")
+    (rev "1.0")
+    (comment 1 "Kariston Franzin")
+  )
+
   (lib_symbols
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
@@ -409,11 +416,6 @@
     (stroke (width 0) (type default))
     (uuid 092ca9d5-f57c-4bb6-b8f9-b315da97b515)
   )
-  (polyline (pts (xy 176.53 102.235) (xy 176.53 64.135))
-    (stroke (width 0) (type default))
-    (uuid 1885fdce-b4a2-4d58-a3fa-0980d8be1fb5)
-  )
-
   (wire (pts (xy 93.98 81.915) (xy 93.98 78.105))
     (stroke (width 0) (type default))
     (uuid 1d60d0d5-cc11-4485-9637-fc44a825a691)
@@ -438,11 +440,6 @@
     (stroke (width 0) (type default))
     (uuid 47d45d4e-a8b1-4b7f-9f9d-ad35a361c28d)
   )
-  (polyline (pts (xy 81.28 64.135) (xy 176.53 64.135))
-    (stroke (width 0) (type default))
-    (uuid 4cd4b411-390c-420e-b2f4-3d9b37a830b9)
-  )
-
   (wire (pts (xy 90.17 75.565) (xy 90.17 78.105))
     (stroke (width 0) (type default))
     (uuid 520841db-5f5c-4d6e-ba87-ed05ac917ce3)
@@ -455,11 +452,6 @@
     (stroke (width 0) (type default))
     (uuid 667a4744-e449-4892-b6ae-7002b37a77d1)
   )
-  (polyline (pts (xy 81.28 64.135) (xy 81.28 102.235))
-    (stroke (width 0) (type default))
-    (uuid 6c8bcd17-d3af-42b3-afcb-d353cbb8cfa6)
-  )
-
   (wire (pts (xy 119.38 92.075) (xy 119.38 94.615))
     (stroke (width 0) (type default))
     (uuid 7816743c-e25c-4c84-abf9-0580813cd26e)
@@ -472,11 +464,6 @@
     (stroke (width 0) (type default))
     (uuid 7c24a77b-1a88-45c3-826b-e0f10a710531)
   )
-  (polyline (pts (xy 81.28 102.235) (xy 176.53 102.235))
-    (stroke (width 0) (type default))
-    (uuid 8e64e752-2425-4301-92c1-8760c3149e28)
-  )
-
   (wire (pts (xy 104.14 92.075) (xy 119.38 92.075))
     (stroke (width 0) (type default))
     (uuid 8e9ce3ee-4538-47f6-9a31-f9c90b128497)
@@ -541,12 +528,12 @@
   )
 
   (symbol (lib_id "power:+3.3V") (at 162.56 76.835 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 035e4503-2bcd-4ca0-933d-6580ef904cfe)
     (property "Reference" "#PWR0131" (at 162.56 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 162.941 72.4408 0)
+    (property "Value" "+3.3V" (at 162.56 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 162.56 76.835 0)
@@ -608,19 +595,19 @@
       )
       (project "fonte_buck_3V3"
         (path "/f1acede2-7dfb-41bf-a72d-a0082356905f"
-          (reference "C2") (unit 1)
+          (reference "OUT_C1") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "power:GND") (at 119.38 94.615 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35263081-366b-493a-a474-da8ea85e6787)
     (property "Reference" "#PWR0128" (at 119.38 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 119.507 99.0092 0)
+    (property "Value" "GND" (at 119.38 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 119.38 94.615 0)
@@ -682,19 +669,19 @@
       )
       (project "fonte_buck_3V3"
         (path "/f1acede2-7dfb-41bf-a72d-a0082356905f"
-          (reference "L1") (unit 1)
+          (reference "Pwr_L1") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "power:+12V") (at 90.17 75.565 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68a06c0f-bd34-489a-958f-0a0e1e5fe00b)
     (property "Reference" "#PWR0130" (at 90.17 79.375 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+12V" (at 90.551 71.1708 0)
+    (property "Value" "+12V" (at 90.17 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 90.17 75.565 0)
@@ -726,11 +713,11 @@
   (symbol (lib_id "Device:C") (at 93.98 85.725 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7fe9d8f6-01df-4b5c-8c47-9640c909de5a)
-    (property "Reference" "C6" (at 97.79 83.185 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Reference" "C6" (at 90.17 83.185 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "10uF" (at 97.79 85.725 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "10uF" (at 90.17 85.725 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 94.9452 89.535 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -738,8 +725,8 @@
     (property "Datasheet" "~" (at 93.98 85.725 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C90143" (at 97.79 88.265 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "LCSC" "C90143" (at 90.17 88.265 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (pin "1" (uuid 4754fbcb-fba8-434a-ab90-97fc1f6378ff))
     (pin "2" (uuid a4ae56c9-fc84-45f6-8cb5-d8a8239ea1a5))
@@ -756,7 +743,7 @@
       )
       (project "fonte_buck_3V3"
         (path "/f1acede2-7dfb-41bf-a72d-a0082356905f"
-          (reference "C1") (unit 1)
+          (reference "IN_C1") (unit 1)
         )
       )
     )
@@ -801,7 +788,7 @@
       )
       (project "fonte_buck_3V3"
         (path "/f1acede2-7dfb-41bf-a72d-a0082356905f"
-          (reference "U1") (unit 1)
+          (reference "LM2594M1") (unit 1)
         )
       )
     )
@@ -840,7 +827,7 @@
       )
       (project "fonte_buck_3V3"
         (path "/f1acede2-7dfb-41bf-a72d-a0082356905f"
-          (reference "C3") (unit 1)
+          (reference "OUT_C2") (unit 1)
         )
       )
     )
@@ -879,9 +866,13 @@
       )
       (project "fonte_buck_3V3"
         (path "/f1acede2-7dfb-41bf-a72d-a0082356905f"
-          (reference "D1") (unit 1)
+          (reference "Pwr_D1") (unit 1)
         )
       )
     )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
   )
 )
