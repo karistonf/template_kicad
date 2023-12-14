@@ -136,7 +136,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/f57c5453-e59e-4d8f-98b1-d103b0d5e47c")
     (attr smd)
-    (fp_text reference "USB_R1" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "USB_R1" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5e6dbfd3-07c0-46af-a252-ed9830419fa9)
     )
@@ -191,7 +191,7 @@
     (property "ki_keywords" "cap capacitor")
     (path "/a62d901c-828a-4604-ae61-b81beaee1a77")
     (attr smd)
-    (fp_text reference "Prog_C1" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "Prog_C1" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 63ccf34e-66c3-4f51-b969-5eaa5f6a36d1)
     )
@@ -246,7 +246,7 @@
     (property "ki_keywords" "connector")
     (path "/5d68f8e2-0d90-4e2f-9d17-f025d32c5efe")
     (attr through_hole)
-    (fp_text reference "USB1" (at 3.75 -3.55 90) (layer "F.SilkS")
+    (fp_text reference "USB1" (at 3.75 -3.55 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b01bbf53-f03f-4c1d-9b90-1647e06e6ef4)
     )
@@ -353,7 +353,7 @@
     (property "ki_keywords" "cap capacitor")
     (path "/9c327825-a02d-4e26-8a81-26ceea7d675d")
     (attr smd)
-    (fp_text reference "RTC_C2" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "RTC_C2" (at 0 -1.16) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4be617e6-b98e-438b-a7f3-a2a8b4ec6500)
     )
@@ -464,7 +464,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/4fc2efe4-3a15-4398-96e6-994f0c689e5b")
     (attr smd)
-    (fp_text reference "USB_R3" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "USB_R3" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 53748169-e613-4bbf-b4b2-454d814d91d3)
     )
@@ -519,7 +519,7 @@
     (property "ki_keywords" "quartz ceramic resonator oscillator")
     (path "/701e48a3-a682-4f86-97ec-7adae9a78926")
     (attr smd)
-    (fp_text reference "uC_Y1" (at 0 -2.8 90) (layer "F.SilkS")
+    (fp_text reference "uC_Y1" (at 0 -2.8 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 19b705aa-061a-4a3e-b3d0-27790462eed2)
     )
@@ -594,7 +594,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/00f9d57f-27c9-4b4b-b6bf-c7a68e2a0b5f")
     (attr smd)
-    (fp_text reference "LED_R1" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "LED_R1" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 52831b47-0e5f-44cf-9dce-4231777087eb)
     )
@@ -649,7 +649,7 @@
     (property "ki_keywords" "LED diode")
     (path "/88c1c020-f7af-4623-b56f-fa60fd0ac45b")
     (attr smd)
-    (fp_text reference "uC_LED1" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "uC_LED1" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eed09b5d-c639-4620-84d0-1097fb3d3f5e)
     )
@@ -818,7 +818,7 @@
     (property "ki_keywords" "connector")
     (path "/2343bd42-b63d-43f7-9190-2f9ef1c68945")
     (attr through_hole)
-    (fp_text reference "Prog1" (at 3.75 -3.55) (layer "F.SilkS")
+    (fp_text reference "Prog1" (at 3.75 -3.55) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bd2f0762-37b1-42ec-b7d5-794ccfe1eb47)
     )
@@ -981,7 +981,7 @@
     (property "ki_keywords" "cap capacitor")
     (path "/476b4d90-7641-4101-9de8-8ceace2406ba")
     (attr smd)
-    (fp_text reference "Vdd1" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "Vdd1" (at 0 -1.16) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e9a10f84-39fe-4529-9445-6d805edd22cf)
     )
@@ -1036,7 +1036,7 @@
     (property "ki_keywords" "quartz ceramic resonator oscillator")
     (path "/7d8db58d-5dae-4cb4-a0de-a7a494cd76c9")
     (attr smd)
-    (fp_text reference "RTC_Y1" (at 0 -2) (layer "F.SilkS")
+    (fp_text reference "RTC_Y1" (at 0 -2) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8021d89d-1a1f-4fec-827d-e79e033729dd)
     )
@@ -1146,7 +1146,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/8351bdd5-de6c-432b-b91a-f69c646c6329")
     (attr smd)
-    (fp_text reference "USB_R2" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "USB_R2" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 03db826f-09d3-44f5-ba41-5b990716b3bf)
     )
@@ -1201,7 +1201,7 @@
     (property "ki_keywords" "cap capacitor")
     (path "/9efbbccc-7157-4c06-bc2a-8d602555464c")
     (attr smd)
-    (fp_text reference "RTC_C1" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "RTC_C1" (at 0 -1.16) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b949c4cc-280f-4751-b04c-549985548420)
     )
@@ -1256,7 +1256,7 @@
     (property "ki_keywords" "LED diode")
     (path "/5dcf4018-ef98-4b7b-87c7-e0740410a115")
     (attr smd)
-    (fp_text reference "PWR_LED1" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "PWR_LED1" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 865cec72-7cb8-4863-af92-4c274e6bd7b1)
     )
@@ -1315,7 +1315,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/2dcb416c-3da3-4411-ba49-86eabe2f283f")
     (attr smd)
-    (fp_text reference "LED_R2" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "LED_R2" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4bd0e0d4-c72b-4f16-8741-633c07c413a1)
     )
@@ -1559,6 +1559,16 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+  )
+
+  (gr_text "STM32" (at 177.44 90.12) (layer "F.SilkS") (tstamp 63721823-12bd-4cc5-981a-e71989b1b8b3)
+    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
+  )
+  (gr_text "uC" (at 162.62 104.16) (layer "F.SilkS") (tstamp 67b6eb93-439c-4683-80bb-bde60a3dd7ce)
+    (effects (font (size 1.5 1.5) (thickness 0.1875)) (justify left bottom))
+  )
+  (gr_text "Pwr" (at 161.51 105.8) (layer "F.SilkS") (tstamp 86546409-f2e5-4a72-b2d4-201cb60b3beb)
+    (effects (font (size 1.5 1.5) (thickness 0.1875)) (justify left bottom))
   )
 
   (segment (start 170.155 93.7332) (end 170.155 89.29) (width 0.2) (layer "F.Cu") (net 1) (tstamp 19e0dd92-1b78-40eb-bdab-48bf63a15b0c))
