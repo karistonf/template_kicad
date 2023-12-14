@@ -9,6 +9,6 @@ The components in the template include:
 * A buck power supply with an input of 12 volts and an output of 3.3 volts.
 * A microcontroller, the STM32F103, featuring a High-speed external (HSE) crystal, a Low-speed external (LSE) crystal for the RTC, a 3.3V battery backup for the RTC, power indicator LEDs, a USB connector, and a programming connector with a JST jack.
 
-!(https://github.com/karistonf/template_kicad/blob/master/imags/stm32.png?raw=true "Stm32")
+![](https://github.com/karistonf/template_kicad/blob/master/imags/stm32.png?raw=true "Stm32")
 
-!(https://github.com/karistonf/template_kicad/blob/master/imags/Buck_5v.png?raw=true "Power Supply Buck 5v")
+![](https://github.com/karistonf/template_kicad/blob/master/imags/Buck_5v.png?raw=true "Power Supply Buck 5v")
