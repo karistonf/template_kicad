@@ -538,6 +538,8 @@
 
   (gr_rect (start 141.51 81.11) (end 155.71 90.97)
     (stroke (width 0.15) (type default)) (fill none) (layer "F.SilkS") (tstamp d327b149-6b4b-4eb2-8b8d-23de043490ac))
+  (gr_rect (start 140.775 79.25) (end 156.5 91.85)
+    (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 20d9da56-cdd4-4777-801f-8c5d3552ac67))
   (gr_text "Can" (at 141.24 80.65) (layer "F.SilkS") (tstamp e580d26e-867b-461f-b461-16df96140fa3)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )

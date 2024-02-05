@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [],
@@ -392,7 +392,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Fonte_simetrica_-12V_+12V.kicad_pro",
+    "filename": "Ads1115.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -469,7 +469,7 @@
   },
   "sheets": [
     [
-      "b793f5a4-c012-4e3f-815b-1137c08bc564",
+      "2547b040-1d7b-4e8d-b96e-7bb2016591c2",
       ""
     ]
   ],
