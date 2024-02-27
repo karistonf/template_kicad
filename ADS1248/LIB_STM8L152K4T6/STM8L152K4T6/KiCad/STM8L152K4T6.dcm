@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM8L152K4T6
+D STM8L152K4T6, 8 bit STM8 Microcontroller 16MHz 1 kB, 16 kB Flash, 2 kB RAM, I2C 32-Pin LQFP
+K
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00240181.pdf
+$ENDCMP
+#
+#End Doc Library

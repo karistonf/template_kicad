@@ -1,0 +1,18 @@
+.STM8L152K4T6 :1 ;STM8L152K4T6, 8 bit STM8 Microcontroller 16MHz 1 kB, 16 kB Flash, 2 kB RAM, I2C 32-Pin LQFP
+QFP80P900X900X160-32N
+*STM IC
+*NGS
+*PLB 1="NRST/PA1" 2="PA2" 3="PA3" 4="PA4" 5="PA5" 6="PA6" 7="VSS1" 8="VDD1" 9="VLCD" 10="PD1" 11="PD2" 12="PD3" 13="PB0" 14="PB1" 15="PB2" 16="PB3" 17="PB4" 18="PB5" 19="PB6" 20="PB7" 21="PD4" 22="PD5" 23="PD6" 24="PD7" 25="PC0" 26="PC1" 27="PC2" 28="PC3" 29="PC4" 30="PC5" 31="PC6" 32="PA0"
+*MXP 32
+*DFN STM8L152K4T6
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (STM8L152K4T6)
+~!Mouser Part Number (511-STM8L152K4T6)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM8L152K4T6?qs=H8t2elxe2QfRIfda8XwgVw%3D%3D)
+~!Arrow Part Number (STM8L152K4T6)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/stm8l152k4t6/stmicroelectronics)
+~!Link Datasheet (http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00240181.pdf)
+~!Height (1.6mm)
+~!3D_Model (STM8L152K4T6)
+STM8L152K4T6
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 32.1!U 31.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 

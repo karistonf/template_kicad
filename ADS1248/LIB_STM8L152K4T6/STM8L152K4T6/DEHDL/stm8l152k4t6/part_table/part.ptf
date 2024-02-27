@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STM8L152K4T6'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "STM8L152K4T6" (!) = "", "QFP80P900X900X160-32N", "Quad Flat Packages", "511-STM8L152K4T6", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM8L152K4T6?qs=H8t2elxe2QfRIfda8XwgVw%3D%3D", "STM8L152K4T6", "https://www.arrow.com/en/products/stm8l152k4t6/stmicroelectronics", "STM8L152K4T6, 8 bit STM8 Microcontroller 16MHz 1 kB, 16 kB Flash, 2 kB RAM, I2C 32-Pin LQFP", "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00240181.pdf", "1.6 mm"
+END_PART
+
+END.

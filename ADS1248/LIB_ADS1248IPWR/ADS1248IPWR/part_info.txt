@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=ADS1248IPWR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=28
+Version=4.1
+Released=2017-01-12 12:59:53
+Downloaded=2024-02-25 19:54:21
+3D=Y

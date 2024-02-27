@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ADS1248IPWR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "ADS1248IPWR" (!) = "", "SOP65P640X120-28N", "Small Outline Packages", "595-ADS1248IPWR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1248IPWR?qs=J7dbQ%252BTwiyv7%2FPk4aINAHQ%3D%3D", "ADS1248IPWR", "https://www.arrow.com/en/products/ads1248ipwr/texas-instruments?region=nac", "24-Bit, 2kSPS, 8-Ch Delta-Sigma ADC for Precision Sensor Measurement", "http://www.ti.com/lit/gpn/ADS1248", "1.2 mm"
+END_PART
+
+END.

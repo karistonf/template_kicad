@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ADS1248IPW"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-09-30-10:49:28)
+    (mountForm default
+        (footprintRef "SOP65P640X120-28N")
+        (spec "System")
+    )
+)

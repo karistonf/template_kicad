@@ -1,0 +1,18 @@
+.ADS1248IPWR :1 ;24-Bit, 2kSPS, 8-Ch Delta-Sigma ADC for Precision Sensor Measurement
+SOP65P640X120-28N
+*STM IC
+*NGS
+*PLB 1="DVDD" 2="DGND" 3="CLK" 4="'RESET'" 5="REFP0/GPIO0" 6="REFN0/GPIO1" 7="REFP1" 8="REFN1" 9="VREFOUT" 10="VREFCOM" 11="AIN0/IEXC" 12="AIN1/IEXC" 13="AIN4/IEXC/GPIO4" 14="AIN5/IEXC/GPIO5" 15="AIN6/IEXC/GPIO6" 16="AIN7/IEXC/GPIO7" 17="AIN2/IEXC/GPIO2" 18="AIN3/IEXC/GPIO3" 19="IEXC2" 20="IEXC1" 21="AVSS" 22="AVDD" 23="START" 24="'CS'" 25="'DRDY'" 26="DOUT/'DRDY'" 27="DIN" 28="SCLK"
+*MXP 28
+*DFN ADS1248IPWR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (ADS1248IPWR)
+~!Mouser Part Number (595-ADS1248IPWR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1248IPWR?qs=J7dbQ%252BTwiyv7%2FPk4aINAHQ%3D%3D)
+~!Arrow Part Number (ADS1248IPWR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ads1248ipwr/texas-instruments?region=nac)
+~!Link Datasheet (http://www.ti.com/lit/gpn/ADS1248)
+~!Height (1.2mm)
+~!3D_Model (ADS1248IPWR)
+ADS1248IPWR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 
