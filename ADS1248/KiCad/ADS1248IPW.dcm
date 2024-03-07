@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS1248IPW
+D ADS1248IPW, 24-Bit Analogue to Digital Converter, Differential, SPI, 28-Pin TSSOP
+K
+F http://www.ti.com/lit/ds/symlink/ads1248.pdf
+$ENDCMP
+#
+#End Doc Library
