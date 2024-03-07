@@ -180,7 +180,8 @@
       ],
       "track_widths": [
         0.0,
-        0.4
+        0.4,
+        0.45
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -483,7 +484,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "ADS1248.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
